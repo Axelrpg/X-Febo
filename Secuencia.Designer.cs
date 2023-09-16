@@ -141,6 +141,7 @@
             this.Controls.Add(this.lblTiempo);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "Secuencia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Secuencia";

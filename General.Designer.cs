@@ -62,6 +62,7 @@
             this.ClientSize = new System.Drawing.Size(804, 441);
             this.Controls.Add(this.dtgvGeneral);
             this.Controls.Add(this.btnRegresar);
+            this.MaximizeBox = false;
             this.Name = "General";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "General";

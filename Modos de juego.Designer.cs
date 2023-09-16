@@ -42,6 +42,7 @@
             // 
             // btnRegresar
             // 
+            this.btnRegresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegresar.Location = new System.Drawing.Point(12, 406);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(75, 23);
@@ -49,8 +50,6 @@
             this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = true;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
-            this.btnRegresar.MouseEnter += new System.EventHandler(this.btnRegresar_MouseEnter);
-            this.btnRegresar.MouseLeave += new System.EventHandler(this.btnRegresar_MouseLeave);
             // 
             // label1
             // 
@@ -166,10 +165,10 @@
             this.Controls.Add(this.btnAleatorio);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnRegresar);
+            this.MaximizeBox = false;
             this.Name = "Modos_de_juego";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "X-Febo";
-            this.Load += new System.EventHandler(this.Modos_de_juego_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

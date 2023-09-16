@@ -17,27 +17,12 @@ namespace X_Febo
             InitializeComponent();
         }
 
-        private void Modos_de_juego_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnRegresar_Click(object sender, EventArgs e)
         {
             Principal principal = new Principal();
             principal.Show();
 
             this.Hide();
-        }
-
-        private void btnRegresar_MouseEnter(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-        }
-
-        private void btnRegresar_MouseLeave(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Default;
         }
 
         private void btnMemoria_Click(object sender, EventArgs e)
