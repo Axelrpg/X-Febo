@@ -105,6 +105,7 @@
       <DependentUpon>Aleatorio.cs</DependentUpon>
     </Compile>
     <Compile Include="Clases\AleatorioConexion.cs" />
+    <Compile Include="Clases\ComunicacionSP.cs" />
     <Compile Include="Clases\Conexion.cs" />
     <Compile Include="Clases\GeneralConexion.cs" />
     <Compile Include="Clases\MemoriaConexion.cs" />

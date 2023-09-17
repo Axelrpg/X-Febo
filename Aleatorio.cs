@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using X_Febo.Clases;
 
 namespace X_Febo
 {
@@ -81,6 +82,17 @@ namespace X_Febo
             modos_De_Juego.Show();
 
             this.Hide();
+        }
+
+        private void Aleatorio_Load(object sender, EventArgs e)
+        {
+            //if (ComunicacionSP.SerialPort.IsOpen == false)
+            //{
+            //ComunicacionSP.SerialPort.PortName = "COM5";
+            //ComunicacionSP.SerialPort.RtsEnable = true;
+            //ComunicacionSP.SerialPort.DtrEnable = true;
+            //ComunicacionSP.SerialPort.Open();
+            //}
         }
     }
 }

@@ -145,6 +145,7 @@
             this.Name = "Aleatorio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aleatorio";
+            this.Load += new System.EventHandler(this.Aleatorio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvAleatorio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

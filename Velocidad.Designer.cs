@@ -144,7 +144,7 @@
             this.MaximizeBox = false;
             this.Name = "Velocidad";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Memoria";
+            this.Text = "Velocidad";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvVelocidad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
